@@ -1,0 +1,19 @@
+
+Employee Salary Prediction - Feature Scaling Results
+
+Linear Regression Scores:
+No Scaling: 0.9981
+Normalization: 0.9981
+Standardization: 0.9981
+
+KNN Regression Scores:
+No Scaling: 0.9624
+Normalization: 0.9624
+Standardization: 0.9624
+
+Observations:
+1. Normalization scales values between 0 and 1.
+2. Standardization transforms features around mean 0 and standard deviation 1.
+3. Linear Regression may not show a big difference because it is less sensitive to feature scale.
+4. KNN is more sensitive to feature scale because it uses distance between data points.
+5. Feature scaling is very important for distance-based models and many deep learning models.
